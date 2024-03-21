@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+           <legend>Personal Information</legend> <br>
+    
+           <!-- text input -->
+           <label for="name">Name:</label>
+           <input type="text" id="name" placeholder="Enter you name" required> <br>
+    
+           <label for="email">Email:</label>
+           <input type="text" id="email" name="email" placeholder="Enter your email" required> <br>
+    
+           <label for="tel">Phone:</label>
+           <input type="tel" id="phone" name="phone" placeholder="Enter you phone number" required> <br>
+    
+           <label for="date">Date of Birth:</label>
+           <input type="date" id="date" name="date" required> <br>
+    
+           <label for="address">Address:</label>
+           <input type="text" id="address" name="address" placeholder="Enter your address" required> <br>
+            
+           <!-- checkbox input -->
+            <label for="gender">Gender:</label> <br>
+            <input type="checkbox" id="female" name="female" value="female" />
+            <label for="female">female</label> <br />
+            <input type="checkbox" id="male" name="male" value="male" />
+            <label for="male">Male</label> <br />
+            <input type="checkbox" id="nonbinary" name="nonbinary" value="nonbinary" />
+            <label for="nonbinary">Non-binary</label> <br />
+            <input type="checkbox" id="genderfluid" name="genderfluid" value="genderfluid" />
+            <label for="genderfluid">Gender Fluid</label> <br>
+            <input type="checkbox" id="none" name="none" value="none" />
+            <label for="none">Prefer Not to say</label> <br>
+            <label for="other">Other</label>
+            <input type="text" id="other" name="other" placeholder="Enter preferred gender" />
+            <br />
+
+            <label for="gender">Course:</label> <br>
+            <input type="checkbox" id="web" name="web" value="web" />
+            <label for="web">Web Development</label> <br />
+            <input type="checkbox" id="pm" name="pm" value="pm" />
+            <label for="pm">Product Management</label> <br />
+            <input type="checkbox" id="pd" name="pd" value="pd" />
+            <label for="pd">Product Design</label> <br />
+            <input type="checkbox" id="cyber" name="cyber" value="cyber" />
+            <label for="cyber">Cybersecurity</label> <br>
+            <input type="checkbox" id="data" name="data" value="data" />
+            <label for="data">Data Science</label> <br>
+
+            <!-- choice button -->
+            <button type="submit">Register</button>
+            <button type="submit">Cancel</button>
+        </fieldset>
+    </form>
+</body>
+</html>

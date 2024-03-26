@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro {
+    background-color: linen;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 26px;
+}
+
+#images, .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.skills {
+    padding: 30px 20px;
+}
+
+.contact {
+    background-color: antiquewhite;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.info, a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 600px){
+    [class*="col-"] {
+        width: 100%;
+      }
+}
